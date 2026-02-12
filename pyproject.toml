@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BrainACTIV"
+version = "0.1.0"
+description = "BrainACTIV"
+authors = [
+  { name="Your Name", email="you@example.com" }
+]
+dependencies = [
+  # list your dependencies
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
