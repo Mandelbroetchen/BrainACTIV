@@ -9,7 +9,7 @@ from torch.utils import data
 from tqdm import tqdm
 from transformers import CLIPProcessor, CLIPVisionModelWithProjection
 
-from dataset.nsd import NaturalScenesDataset
+from brainactiv.dataset.nsd import NaturalScenesDataset
 
 
 class NSDCLIPFeaturesDataset(data.Dataset):

@@ -6,7 +6,7 @@ from PIL import Image
 from torch.utils import data
 from torchvision import transforms
 
-from methods.subsets import get_subset_indices
+from brainactiv.methods.subsets import get_subset_indices
 
 
 class NaturalScenesDataset(data.Dataset):

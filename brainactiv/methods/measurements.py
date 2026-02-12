@@ -5,7 +5,7 @@ from skimage.filters.rank import entropy
 from skimage.morphology import disk
 from skimage.util import img_as_ubyte
 
-from methods.xtc_network import UNet
+from brainactiv.methods.xtc_network import UNet
 
 
 class DepthEstimator:
